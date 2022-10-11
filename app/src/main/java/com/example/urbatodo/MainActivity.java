@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/"));
         startActivity(i);
     }
+    public void tiktok (View view){
+        Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://www.tiktok.com/"));
+        startActivity(i);
+    }
 
 
 }
